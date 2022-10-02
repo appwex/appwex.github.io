@@ -1,11 +1,38 @@
 {
+  "name": "appwex.github.io",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@svgr/webpack": "^6.3.1",
+    "axios": "^0.26.1",
+    "clsx": "^1.2.1",
+    "next": "12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.1"
-  }
+    "@types/node": "^17.0.23",
+    "@types/react": "^18.0.17",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "sass": "^1.49.11"
+  },
+  "description": "App Wex.",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appwex/appwex.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appwex/appwex.github.io/issues"
+  },
+  "homepage": "https://github.com/appwex/appwex.github.io#readme"
 }
